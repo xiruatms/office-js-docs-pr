@@ -29,7 +29,7 @@ To run the feature, you must have a supported version of Word and a Microsoft 36
 
 - In the [Runtimes](/javascript/api/manifest/runtimes) element, override the using runtime with a javascript type and reference a javascript file containing the function you want to execute.
 - Set the `xsi:type` of the [ExtensionPoint](/javascript/api/manifest/extensionpoint) element to [LaunchEvent](/javascript/api/manifest/extensionpoint#launchevent). This enables the event-based activation feature in your WXP add-in.
-- In the [LaunchEvent](/javascript/api/manifest/launchevent) element, set the `Type` to `OnDocumentOpen` and specify the JavaScript function name of the event handler in the `FunctionName` attribute.
+- In the [LaunchEvent](/javascript/api/manifest/launchevent) element, set the `Type` to `OnDocumentSave` `OnDocumentSaveAs` and specify the JavaScript function name of the event handler in the `FunctionName` attribute.
 
 ### Code sample
 
