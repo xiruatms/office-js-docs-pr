@@ -15,7 +15,7 @@ With the feature, a central deployed Word, Excel or PowerPoint add-in can launch
 | Event name | Description | Supported clients and channels |
 | ----- | ----- | ----- |
 | `OnDocumentSave` | Occurs on a user saves a document manually in WXP.| <ul><li> Office Win32 Desktop DevMain channel insider ring, version>= 16.0.19426.20094 </li></ul>|
-| `OnDocumentSaveAs` | Occurs on a user saves a copy of document manually in WXP.|
+| `OnDocumentSaveAs` | Occurs on a user saves a copy of document manually in WXP.| <ul><li> Office Win32 Desktop DevMain channel insider ring, version>= 16.0.19426.20094 </li></ul>|
 
 The following sections walk you through how to develop a Word add-in that automatically checks the document when a new or existing document saves. This highlights a sample scenario of how you can implement event-based activation in WXP add-ins.
 
